@@ -1,0 +1,100 @@
+/**reset**/
+html,body,h1,h2,h3,h4,h5,h6,p,span,div,ul,ol,li,table,figure,figcaption{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+/**content**/
+.content{
+  width:1136px;
+  margin:10px auto;
+  padding:16px 0;
+  border-top:1px solid #ccc;
+}
+.content a:hover{
+  color:#f60;
+}
+/**content-sidebar**/
+.content-header a{
+  color:#f60;
+}
+.content h4{
+  font-size:0.9em;
+}
+.content-left{
+  width:208px;
+  float:left;
+}
+.content-left figure{
+  padding:20px 0;
+}
+.content-left-chart ol li,.content-left-chart p{
+  font-size:0.8em;
+  padding:5px 0;
+}
+.num-icon{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	background-color:#f60;
+	color:#fff;
+	font-family:sans-serif,serif;
+	font-weight: bold;
+	font-style:normal;
+	text-align:center;
+}
+/**content-main-nav**/
+.content-right{
+  width:900px;
+  float:right;
+}
+.content-nav li{
+  display:inline-block;
+  font-size:0.8em;
+  padding:5px 0;
+}
+.content-nav a{
+  display:block;
+  padding:5px;
+}
+/**hover时候添加current类,改**/
+.content-nav a:hover{
+  color:#fff;
+  font-weight:bold;
+  background-color:#f60;
+  border-radius:5px;
+}
+.current{
+  color:#fff;
+  font-weight:bold;
+  background-color:#f60;
+  border-radius:2px;
+}
+/**content-main-nav**/
+.content-main figure{
+  padding:10px 0;
+}
+.content-main li{
+  float:left;
+  padding:0 8px;
+  width:208px;
+}
+.content-main a:hover{
+  opacity:0.8;
+}
+.content-main h4{
+  padding:5px 0;
+}
+.content-right p{
+  font-size:0.6em;
+  color:#ccc;
+}
