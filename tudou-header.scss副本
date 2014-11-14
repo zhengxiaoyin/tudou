@@ -1,0 +1,66 @@
+$widthMain: 1216px;
+$heightMain: 48px;
+$colorMain: #f60;
+
+ul,ol,dt,li,h1,h2,h3,h4,h5,h6,input,button,header,nav{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol,li{
+	list-style:none;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+
+header{
+	margin:0 auto;
+	padding-top: 24px;
+	width: $widthMain;
+	height: 72px;
+	.logo-header{
+	display: none;
+	}
+	.logo-img{
+	width:187px;
+	height: $heightMain;
+	background:url(http://css.tudouui.com/v3/dist/img/g/ui/nav/v5_cce3942.png) 0 0 no-repeat;
+	}
+	.user li{
+	display: inline-block;
+	padding-left: 20px;
+	font-size: 14px;
+	}
+	.user a{
+	display: block;
+	color: #848D92;
+	}
+}
+/*nav-style*/
+nav{
+	background-color: $colorMain;
+	height: $heightMain;
+	.nav-main{
+		margin: 0 auto;
+		width: $widthMain;
+		line-height: $heightMain;
+		tetx-align: center;
+		li{
+		display: inline-block;
+		}
+		a{
+		display: block;
+		padding: 0 5px;
+		color: #fff;
+		&:hover{
+		background-color: #ce5809;
+		}
+		}
+	}
+}
